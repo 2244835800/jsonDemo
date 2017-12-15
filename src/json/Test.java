@@ -8,7 +8,7 @@ public class Test {
 		// TODO Auto-generated constructor stub
 	}
 	public static void main(String[] args) {  
-        String jsonString ="{\"name\":\"https://github.com/2244835800\",\"password\":\"hoper\",\"email\":\"我没有\"}";  
+        String jsonString ="{\"name\":\"https://github.com/2244835800\",\"password\":\"hoper\",\"email\":\"hoper的小demo\"}";  
         JSONObject json = JSONObject.fromObject(jsonString);  
         String name=json.getString("name");  
         String pwd=json.getString("password");  
